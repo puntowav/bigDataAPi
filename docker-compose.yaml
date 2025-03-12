@@ -11,9 +11,3 @@ services:
       - "443:443"  # HTTPS
     environment:
       - PORT=443
-    networks:
-      - internal
-networks:
-  internal:
-    name: internal
-    external: true
